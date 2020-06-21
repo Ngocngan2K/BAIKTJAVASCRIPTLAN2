@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hinh1{
+    width: 296px;
+    height: 167px;
+    float: left;
+    padding-right: 40px;
+}
+
+.header{
+    height: 167px;
+    background-color:white;
+    padding-left:15px;
+    position:fixed;
+
+    position: relative;
+    z-index: 2;
+    top:0;
+}
+
+.h1{
+    position: relative;
+    z-index: 2;
+    top:0px;
+
+    padding-top: 20px;
+}
+
+.menu{
+    width: 1366px;
+    height: 70px;
+    background-color: green;
+    position: fixed;
+    position: relative;
+    z-index: 1;
+    top:-70;
+
+    transition: 0.5s;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background-color: green;
+    color: white;
+}
+
+.menu > ul > li:hover > ul{
+    opacity: 1;
+    top: 40px;
+    transition: 0.5s;
+    visibility: visible;
+}
+
+.menu > ul li:hover > a{
+    width: 40px;
+    height:30px;
+    background-color: white;
+    color: black;
+}
+li button{
+    padding: 15px;
+    font-size: 20px;
+
+}
+li input{
+    position: relative;
+}
+
+input{
+    height: 50px;
+    background-color: rgb(216, 208, 208);
+    font-size: 20px;
+    color:white;
+    padding-left: 50px;
+
+}
+
+.khung{
+    position: absolute;
+    top:100px;
+    left: 150;
+    z-index:1;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+
+.khungduoi{
+    width: 1266px;
+    height: 800px;
+    position: absolute;
+    z-index: 0;
+
+    
+    
+    padding-left: 15px;
+
+}
+.khungtrai{
+    width:900px;
+    float:left;
+    padding: 10px;
+}
+.khungtrai a{
+    width:900px;
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.khungtrai p{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+.khungphai{
+    float:right;
+    width: 331px;
+    height: 800px;
+
+}
+.khungphai img{
+    width:331px;
+    height:250px;
+    padding: 10px;
+}
+
+.hieuung{
+    position: fixed;
+    top: 0px;
+}
+
+.hieuung2{
+    top:50px;
+    transition:0.5s;
+    opacity: 1;
+}
